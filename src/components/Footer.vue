@@ -9,11 +9,11 @@
             -
           </span>
           {{ fullYear }}
-          <a :href="siteUrl">{{ siteAnthor }}</a>
+          <a :href="siteUrl">&amp;&nbsp;Maintainer:{{ siteAnthor }}&nbsp;</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
-          &amp;&nbsp;Made&nbsp;by
+          &amp;&nbsp;Quoted From:&nbsp;
           <a :href="config.github" target="_blank">
             {{ config.author }}
           </a>
