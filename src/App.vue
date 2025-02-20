@@ -108,7 +108,7 @@ onMounted(() => {
   const styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
   const styleContent = "color: rgb(30,152,255);";
   const title1 = "WowDespacito";
-  const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
+  const content = `\n\n网站创建者：咫\n主页: ${config.home}\nGithub: ${config.github}\n\n原作者：imsyy\n版本: 4.1.4\n主页: https://imsyy.top\nGithub: https://github.com/imsyy/home`;
   console.info(`%c${title1}  %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
 

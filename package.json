@@ -1,10 +1,10 @@
 {
-  "name": "home",
-  "author": "imsyy",
-  "github": "https://github.com/imsyy/home",
-  "home": "https://imsyy.top",
+  "name": "myHomePage",
+  "author": "咫",
+  "github": "https://github.com/wowdespacito/myHomePage",
+  "home": "https://wowdespacito.pro",
   "private": true,
-  "version": "4.1.4",
+  "version": "",
   "type": "module",
   "scripts": {
     "dev": "vite --host",

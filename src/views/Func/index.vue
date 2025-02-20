@@ -5,7 +5,7 @@
       <el-col :span="12">
         <div class="left">
           <Hitokoto />
-          <Music v-if="playerHasId" />
+          <!-- <Music v-if="playerHasId" /> -->
         </div>
       </el-col>
       <el-col :span="12">
