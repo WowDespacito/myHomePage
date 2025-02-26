@@ -14,8 +14,8 @@
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
           &amp;&nbsp;Quoted From:&nbsp;
-          <a :href="config.github" target="_blank">
-            {{ config.author }}
+          <a href="https://www.github.com/imsyy/home" target="_blank">
+            imsyy
           </a>
         </span>
         <!-- 站点备案 -->
@@ -40,7 +40,6 @@
 <script setup>
 import { MusicOne } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
-import config from "@/../package.json";
 
 const store = mainStore();
 const fullYear = new Date().getFullYear();
@@ -51,7 +50,7 @@ const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
 const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "https://www.imsyy.top";
+  if (!url) return "https://www.wowdespacito.pro";
   // 判断协议前缀
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
     return "//" + url;
