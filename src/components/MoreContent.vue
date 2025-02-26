@@ -1,5 +1,6 @@
 <template>
-  <div class="more-content">您可在此编写任意内容</div>
+  <!-- 您可在此编写任意内容 -->
+  <div class="more-content"></div>
 </template>
 
 <style lang="scss" scoped>
